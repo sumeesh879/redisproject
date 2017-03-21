@@ -1,0 +1,20 @@
+{
+  "name": "redisproject",
+  "version": "1.0.0",
+  "description": "Node.js project using redis ",
+  "main": "app.js",
+  "repository": "https://github.com/sumeesh879/redisproject.git",
+  "author": "Sumeesh Nagisetty",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.7",
+    "nodemon": "^1.11.0",
+    "redis": "^2.7.1"
+  }
+}
